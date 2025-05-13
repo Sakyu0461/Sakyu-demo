@@ -21,3 +21,9 @@ const PORT = 3000;
 server.listen(PORT, () => {
   console.log(`服务器运行在 http://localhost:${PORT}`);
 });
+
+// 设置监听端口和启动回调
+const PORT1 = 8080;
+server.listen(PORT1, () => {
+  console.log(`服务器运行在 http://localhost:${PORT}`);
+});
